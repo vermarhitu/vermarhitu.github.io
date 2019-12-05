@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<title>Vermarhitu - Web developer - Sr. Software Engineer</title>	
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
 
 		<style>
@@ -8,17 +9,36 @@
 		<style>
 		@import url('https://fonts.googleapis.com/css?family=Montserrat');
 		@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-		label{
-			font-size: 12px;
+		.contact {
+			padding: 30px;
+			background: #454b69;
+		}
+		.contact label{
+			font-size: 26px;
 			font-weight: 600;
-			letter-spacing: 8px;
+			letter-spacing: 3px;
+			font-variant: petite-caps;
+		}
+		.hero{
+			padding:40px 0;
+		}
+		.hero h2.tagline{
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 900;
+			font-size: 60px;
+			color:#474157;
+		}
+		.hero img {
+			border: 0;
+		}
+		.header h1{
+			font-size: 30px;
 		}
 		.header{
 			color:#fff;
 			font-family: 'Montserrat', sans-serif;
-			background: #81c784;
-			background: -webkit-linear-gradient(to left, #81c784,#4dd0e1, #8c9eff);
-			background: linear-gradient(to left, #81c784,#4dd0e1, #8c9eff);
+			background: royalblue;
+    		padding: 30px;
 		}
 		h4{
 			font-family: 'Montserrat', sans-serif;
@@ -40,21 +60,27 @@
 			padding: 40px 0;
 		}
 		.abouttext{
-			line-height: 34px;
+			line-height: 28px;
 		}
 		.rv{
 			list-style-type:none;
 			padding:0;
 		}
+		.skill{
+			padding:40px 0 ;
+		}
 		.skill h4{
-				letter-spacing:0px;
-				color: #767676;
+			letter-spacing:0px;
+			font-weight: bolder;
+		}
+		.skill h3{
+			text-align: center;
 		}
 		.main{
 			margin-top: 60px;
 		}
 		.footer{
-			margin-bottom: 80px;	
+			background: #0f3443;
 		}
 		td{
 			padding:5px 0;
@@ -63,130 +89,120 @@
 		p{
 			line-height: 34px;
 		}
+		section.happen {
+			background: royalblue;
+			padding: 60px;
+			margin: 60px 0;
+		}
+		.happen h2 {
+			font-family: 'Dancing Script', cursive;
+			font-size: 72px;
+			text-align: center;
+			color: #fff;
+		}
+		.declaration p {
+			font-size: 12px;
+			text-align: center;
+			margin: 0;
+			letter-spacing: 1.5px;
+			color:#fff;
+		}
+		a.btn {
+			background: #6c63ff;
+			color: #fff!important;
+			font-family: Montserrat;
+			font-size: 20px;
+			font-weight: 600;
+			padding: 10px 30px;
+			letter-spacing: 1.5px;
+		}
+		a.btn:hover{
+			background: #fff;
+			border: 2px solid #6c63ff;
+			color: #6c63ff!important;
+		}
 		</style>
 	</head>
 	
 	<body>
+		<section class="hero">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-5">
+						<h2 class="tagline">Lets get <br/> your business <br/> online</h2>
+						<a href="mailto:vermarhitu@gmail.com" type="button" class="btn">Ask us how</a>
+					</div>
+					<div class="col-lg-7 text-center">
+						<img class="img-fluid img-thumbnail" src="img/we.png"/>
+					</div>
+				</div>
+			</div>
+		</section>
 		<section class="header">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 text-center" style="font-weight: 900; text-shadow: 0 0 6px #aaa;">
-						<h1>Ravneet Verma</h1>
-						<h4 style="margin-bottom: 25px;">(Sr. Software Engineer)</h4>
+					<div class="col-lg-6 text-center">
+						<div class="we">
+							<h1>Er. Ravneet Verma</h1>
+							<h4>(Sr. Software Engineer)</h4>
+						</div>
+					</div>
+					<div class="col-lg-6 text-center">
+						<div class="we">
+							<h1>Er. Bhawanjit Verma</h1>
+							<h4>(Sr. Wordpress Expert)</h4>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="contact">
+		<!-- <section class="contact">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-12 text-center" style="background: #0f3443;">
-						<label style="color:#fff;padding:5px 0;margin-bottom: 0;"> +91-7837872012 / vermarhitu@gmail.com</label>
+					<div class="col-lg-12 text-center">
+						<label style="color:#fff;padding:5px 0;margin-bottom: 0;"> are you searching for a Website Developer? <br/> feel free to contact us <br/>
+					</label>
 					</div>
 				</div>
 			</div>
-		</section>
-		<section class="main">
+		</section> -->
+		<!-- <section class="main">
 			<div class="container">
 				<div class="row about">
 					<div class="col-lg-6">
 						<h3>About Me</h3>
-						<p class="abouttext">A Professional programmer who is Passionate of getting hands on new technologies. Currently working as a Sr. Software Engineer . I have worked with multiple frameworks and technologies of PHP, Python, and JS. I love helping clients achieve their goals and grow their business.</p>
+						<p class="abouttext">A Professional programmer who is currently working as a Sr. Software Engineer. Worked with multiple frameworks and technologies of PHP, Python, and JS. I love helping clients achieve their goals and grow their business.</p>
 					</div>
+					
 					<div class="col-lg-6">
-						<h3>Education</h3>
-						<b>Graduated with Honors</b>
-						<p>B-Tech - Computer Science Engineering (Distinction) <br/> L.C.E.T. Ludhiana ( 2010 - 2014 )</p>
-
-						<b>+2 Non-Medical</b>
-					</div>
-				</div>
-				
-				<div class="row edu_exp">
-					<div class="col-lg-6">
-						<h3>Personal Details</h3>
+						<h3>What I do</h3>
 						<table class="rv">
 							<tr>
-								<td width="150">Name</td> 
-								<td>: Ravneet Verma</td>
+								<td width=200px>Web Development</td>		   
+								<td>App Development</td>
 							</tr>
-							<tr>
-								<td width="150">Father's Name</td> 
-								<td>: Paramjit Singh Verma</td>
+							<tr>             
+								<td>Graphic Designing</td>
+								<td>Photography</td>
 							</tr>
-							<tr>
-								<td>D.O.B.</td>  		           
-								<td>: 31 August 1992</td>
-							</tr>
-							<tr>
-								<td>Gender</td>                    
-								<td>: Female</td>
-							</tr>
-							<tr>
-								<td>Nationality</td>     		   
-								<td>: Indian</td>
-							</tr>
-							<tr>
-								<td>Marital status</td>		       
-								<td>: Single</td>
-							</tr>
-							<tr>
-								<td>Religion</td>		           
-								<td>: Hindu</td>
-							</tr>
-							<tr>
-								<td>Languages</td>	               
-								<td>: English, Hindi, Punjabi</td>
+							<tr>             
+								<td>E-Commerce</td>            
+								<td>Digital Marketing</td>
 							</tr>
 						</table>	
 					</div>	
-					<div class="col-lg-6">
-						<h3>Experience</h3>
-						<div class="row">
-							<div class="col-lg-6">
-							<b>SM Tech</b>
-							<p>( Dec 2018 - Present )</p>
-							</div>
-							<div class="col-lg-6">
-							<p class="text-right">Sr. Software Engineer</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
-							<b>Unique Coders / Webriderz</b>
-							<p>( Oct 2017 - Dec 2018 )</p>
-							</div>
-							<div class="col-lg-6">
-							<p class="text-right">Sr. Software Engineer</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
-							<b>1neclick Online Pvt. Ltd.</b>
-							<p>( Jun 2016 - Oct 2017 )</p>
-							</div>
-							<div class="col-lg-6">
-							<p class="text-right">Sr. PHP Developer</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6">
-							<b>Evolvan Info Solutions Pvt. Ltd.</b>
-							<p>( Oct 2014 - May 2016 )</p>
-							</div>
-							<div class="col-lg-6">
-							<p class="text-right">Associate Software Engineer</p>
-							</div>
-						</div>
-					</div>					
+								
 				</div>
 			</div>
 		</section>
+		<section class="happen">
+			<h2>Lets get your business happen online</h2>
+		</section> -->
 		<section class="skill">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
-						<h3>Skill Set</h3>
+						<h3>We are Professionals who works in these technologies</h3>
 					</div>
 				</div>
 				<div class="row space text-center">
@@ -285,11 +301,10 @@
 			</div>
 		</section>
 		<section class="footer">
-			<div class="container">
+			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-12">
-						<h3>Declaration</h3>
-						<p>I solemnly declare that the information furnished by me is true and correct to best of knowledge and belief.</p>
+					<div class="col-lg-12 declaration">
+						<p>Copyrights &copy; 2019 All rights reserved </p>
 					</div>
 				</div>
 			</div>
